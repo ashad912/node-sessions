@@ -18,7 +18,7 @@ export function createCorsSettings() {
 
             }
         },
-        credentials: true
+        credentials: true //Access-Control-Allow-Credentials header to send and/or receive cookie(s) from cross origin domains
     }
 
     return corsOptions

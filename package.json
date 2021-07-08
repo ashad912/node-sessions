@@ -1,0 +1,28 @@
+{
+  "name": "sessions",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsnd src/index.ts",
+    "debug": "tsnd --inspect --respawn src/index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "connect-redis": "^6.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "redis": "^3.1.2",
+    "typescript": "^4.3.5"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "@types/connect-redis": "^0.0.17",
+    "@types/cors": "^2.8.11",
+    "@types/redis": "^2.8.31",
+    "ts-node-dev": "^1.1.8"
+  }
+}

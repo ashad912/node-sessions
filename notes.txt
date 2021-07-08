@@ -1,0 +1,5 @@
+Sessions
+
+Should be saved in the fast memory like Redis.
+
+connect-redis package used form sessions with Redis integration
